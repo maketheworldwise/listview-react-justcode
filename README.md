@@ -1,70 +1,54 @@
-# Getting Started with Create React App
+# listview-react-justcode
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+> 컴포넌트 재활용 실습
 
-## Available Scripts
+## 🚀 Mission
 
-In the project directory, you can run:
+- `OriginalCardList.js, OriginalCardList.scss`를 재활용 가능한 컴포넌트들로 분리
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<details>
+<summary>촉촉함을 원해요</summary>
+<div markdown="1">
+<br>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- 사진
+- 카드 타입 (New)
+- 타이틀
+- 설명
 
-### `npm test`
+</div>
+</details>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<details>
+<summary>통통미 폭발</summary>
+<div markdown="1">
+<br>
 
-### `npm run build`
+- 사진
+- 카드 타입 (Good)
+- 타이틀
+- 설명
+- 연관 상품 (리스트)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+</div>
+</details>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<details>
+<summary>올 겨울엔 프렌즈랑</summary>
+<div markdown="1">
+<br>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- 사진
+- 카드 타입 (Theme)
+- 타이틀
+- 설명
+- 연관 상품 (카드)
 
-### `npm run eject`
+</div>
+</details>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![](./docs/images/listview.png)
